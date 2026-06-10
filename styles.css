@@ -1,0 +1,21 @@
+﻿body{margin:0;font-family:Inter,Arial;background:#f8fafc;color:#0f172a}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.site-header{background:#fff;border-bottom:1px solid #e5e7eb}
+.header-inner{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{width:44px;height:44px}
+.nav{display:flex;gap:16px}
+.nav-link{text-decoration:none;color:#6b7280;padding:6px 10px;border-radius:6px}
+.nav-link.active,.nav-link:hover{background:#eef2ff;color:#4f46e5}
+.hero{padding:60px 0;background:#1e293b;color:#fff}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+.hero-img img{width:100%;border-radius:10px}
+.section{padding:50px 0}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:#fff;padding:20px;border-radius:10px;border:1px solid #e5e7eb}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.team-photo{width:100%;height:160px;object-fit:cover;border-radius:8px}
+.jobs-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:20px}
+.btn{display:inline-block;padding:8px 14px;background:#4f46e5;color:#fff;border-radius:6px;text-decoration:none}
+.site-footer{background:#fff;border-top:1px solid #e5e7eb;padding:20px 0;margin-top:40px}
+.footer-grid{display:flex;justify-content:space-between}
+.lead{color:#6b7280}
